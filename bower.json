@@ -1,11 +1,10 @@
 {
-  "name": "starter",
+  "name": "whitevote",
   "version": "0.0.0",
   "authors": [
-    "Andrew Chavez <adchavez@gmail.com>"
+    "Christian McDonald <cmcdonald@statesman.com>"
   ],
-  "main": "index.html",
-  "private": true,
+  "main": "index.php",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -14,6 +13,9 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.0"
-  }
+    "tabletop": "~1.3.5"
+  },
+  "homepage": "https://github.com/statesman/whitevote",
+  "description": "whitevote map graphic",
+  "license": "MIT"
 }
