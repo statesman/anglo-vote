@@ -43,8 +43,8 @@
     <![endif]-->
 
     <?php /* CMG advertising and analytics */ ?>
-    <?php /*include "includes/advertising.inc"; */ ?>
-    <?php /*include "includes/metrics-head.inc"; */ ?>
+    <?php include "includes/advertising.inc"; ?>
+    <?php include "includes/metrics-head.inc"; ?>
   </head>
   <body>
     <nav class="navbar navbar-default" role="navigation">
@@ -57,21 +57,24 @@
       </div>
     </nav>
 
-    <div class="container header">
-      <h4>ELECTION 2014</h4>
-      <h2>Winning the white vote</h2>
-      <p>This map shows which party candidate carried the white vote in the most competitive race among governor or U.S. Senate in the 2014 mid-term elections. Click on the state to see the percentage white vote for Democratic and Republican candidates along with the white share of the electorate that voted in that state. Grey states indicate there was no exit poll or no race for either governor or senator.</p>
-      <p><small>Interactive by CHRISTIAN MCDONALD and JONATHON TILOVE, Austin American-Statesman</small></p>
+    <div class="container">
+      <div class="header">
+        <h4>ELECTION 2014</h4>
+        <h2>Winning the white vote</h2>
+        <p>This map shows which party candidate carried the white vote in the most competitive race among governor or U.S. Senate in the 2014 mid-term elections. Click on the state to see the percentage white vote for Democratic and Republican candidates along with the white share of the electorate that voted in that state. Gray states indicate there was no exit poll or no race for either governor or senator.</p>
+        <p><small>Interactive by CHRISTIAN MCDONALD and JONATHON TILOVE, Austin American-Statesman</small></p>
 
-      <ul class="list-inline">
-          <li><span class="Democrat">tag</span> Democrat</li>
-          <li><span class="Republican">tag</span> Republican</li>
-          <li><span class="No-poll">tag</span> No exit poll</li>
-      </ul>
-
-      <aside class="small text-muted">Source: Edison Research</aside>
-      
-      <section id="blurb"></section>
+        <ul class="list-inline">
+            <li><span class="Democrat">tag</span> Democrat</li>
+            <li><span class="Republican">tag</span> Republican</li>
+            <li><span class="No-poll">tag</span> No exit poll</li>
+        </ul>
+        <aside class="small text-muted">Source: Edison Research</aside>
+      </div>
+    
+      <div class="row">
+          <div id="blurb" class="col-xs-12 col-sm-4 col-md-3 col-lg-3"></div>
+      </div>
 
     </div>
 
@@ -92,7 +95,7 @@
     <script>
     us_map ({
       container: 'blurb',
-      initial_state: 'CA',
+      initial_state: 'TX',
       //proxy: proxy here,
       key: 'https://docs.google.com/spreadsheets/d/1daB0OOX8mxKbQ8uSjnVA5Y6X74ApwLTh19dV22AwzsI/pubhtml?gid=0&single=true',
       // my key: https://docs.google.com/spreadsheets/d/1daB0OOX8mxKbQ8uSjnVA5Y6X74ApwLTh19dV22AwzsI/pubhtml?gid=0&single=true
