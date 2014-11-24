@@ -58,12 +58,24 @@
     </nav>
 
     <div class="container header">
-      <h4>Overline goes here</h4>
-      <h2>Interactive title goes here</h2>
-      <p><small>Interactive by CREDIT GOES HERE, Austin American-Statesman</small></p>
-      <p>This is a place where chatter about the interactive can go.</p>
+      <h4>ELECTION 2014</h4>
+      <h2>Where the white vote differes</h2>
+      <p><small>Interactive by CHRISTIAN MCDONALD, Austin American-Statesman</small></p>
+
+      <ul class="list-inline">
+          <li><span class="Legal">tag</span> Legal</li>
+          <li><span class="Appeal">tag</span> Ban struck down, appeal pending</li>
+          <li><span class="Challenged">tag</span> Banned, currently challenged in court</li>
+          <li><span class="Banned">tag</span> Banned</li>
+      </ul>
+
+      <aside class="small text-muted">Source: Lambda Legal, Human Rights Campaign</aside>
+      
+      <section id="blurb"></section>
+
     </div>
 
+ 
     <?php /* Banner ad */ ?>
     <?php include "includes/banner-ad.inc";?>
 
@@ -74,5 +86,19 @@
     <?php include "includes/metrics.inc"; ?>
 
     <script src="dist/scripts.js"></script>
+    <script type="text/javascript" src="http://assets.motherjones.com/interactives/plugins/pym.js/src/pym.js"></script>
+    <script src="src/js/script.js"></script>
+
+    <script>
+    us_map ({
+      container: 'blurb',
+      initial_state: 'CA',
+      //proxy: proxy here,
+      key: 'https://docs.google.com/spreadsheets/d/1daB0OOX8mxKbQ8uSjnVA5Y6X74ApwLTh19dV22AwzsI/pubhtml?gid=0&single=true',
+      // my key: https://docs.google.com/spreadsheets/d/1daB0OOX8mxKbQ8uSjnVA5Y6X74ApwLTh19dV22AwzsI/pubhtml?gid=0&single=true
+      // example key: https://docs.google.com/spreadsheet/pub?key=0Aq7nL59nLsCMdDJxZUo4cFZaWGF5d0pSZU9XSE44NVE&output=html
+    })
+    </script>
+
   </body>
 </html>

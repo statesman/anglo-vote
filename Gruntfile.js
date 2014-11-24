@@ -30,6 +30,9 @@ module.exports = function(grunt) {
     // Run our JavaScript through JSHint
     jshint: {
       js: {
+        options: { 
+          "ignores": ['src/js/script.js']
+        },
         src: ['src/js/**.js']
       }
     },
@@ -43,7 +46,9 @@ module.exports = function(grunt) {
         files: {
           'dist/scripts.js': [
             'bower_components/jquery/dist/jquery.js',
-            'src/js/main.js'
+            'src/js/main.js',
+            'bower_components/tabletop/src/tabletop.js'
+            // and maybe the mojo script file
           ]
         }
       }

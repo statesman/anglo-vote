@@ -1,0 +1,66 @@
+
+
+/* map */
+svg {
+    width: 100%;
+    padding: 1em;
+}
+
+
+/* map interaction styling */
+.selected {
+    opacity: .5;
+}
+.clickable {
+    cursor: pointer;
+}
+
+
+
+/* tooltips */
+#blurb {
+    background: #f7f7f7;
+    padding: .5em;
+}
+
+
+/* fade */
+.fade-out {
+    opacity : 0;
+    transition-property : opacity; 
+    transition-duration : 0.3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+.fade-in {
+    opacity : 1;
+    transition-property : opacity; 
+    transition-duration : 0.3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+path:hover, path:active {
+    opacity: .5;
+}
+
+/*  project-specific styles for map and legend */
+.Legal {	
+	fill:#69A9C5;
+    background:#69A9C5;
+    color: #69A9C5;
+}
+.Appeal {   
+    fill:#ABD9E9;
+    background:#ABD9E9;
+    color:#ABD9E9;
+}
+.Challenged {
+	fill: #F4A582;
+    background:#F4A582;
+    color:#F4A582;
+}
+.Banned { 
+    fill:#D6604D;
+    background:#D6604D;
+    color:#D6604D;
+}
