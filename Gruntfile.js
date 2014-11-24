@@ -46,9 +46,8 @@ module.exports = function(grunt) {
         files: {
           'dist/scripts.js': [
             'bower_components/jquery/dist/jquery.js',
-            'src/js/main.js',
-            'bower_components/tabletop/src/tabletop.js'
-            // and maybe the mojo script file
+            'statedata.js',
+            'src/js/script.js'
           ]
         }
       }

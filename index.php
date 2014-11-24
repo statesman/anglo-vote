@@ -89,17 +89,12 @@
     <?php include "includes/metrics.inc"; ?>
 
     <script src="dist/scripts.js"></script>
-    <script type="text/javascript" src="http://assets.motherjones.com/interactives/plugins/pym.js/src/pym.js"></script>
-    <script src="src/js/script.js"></script>
+
 
     <script>
     us_map ({
       container: 'blurb',
-      initial_state: 'TX',
-      //proxy: proxy here,
-      key: 'https://docs.google.com/spreadsheets/d/1daB0OOX8mxKbQ8uSjnVA5Y6X74ApwLTh19dV22AwzsI/pubhtml?gid=0&single=true',
-      // my key: https://docs.google.com/spreadsheets/d/1daB0OOX8mxKbQ8uSjnVA5Y6X74ApwLTh19dV22AwzsI/pubhtml?gid=0&single=true
-      // example key: https://docs.google.com/spreadsheet/pub?key=0Aq7nL59nLsCMdDJxZUo4cFZaWGF5d0pSZU9XSE44NVE&output=html
+      initial_state: 'TX'
     })
     </script>
 
