@@ -58,9 +58,9 @@
     </nav>
 
     <div class="container header">
-      <h4>ELECTION 2014</h4>
-      <h2>Where the white vote differes</h2>
-      <p><small>Interactive by CHRISTIAN MCDONALD, Austin American-Statesman</small></p>
+      <h4>HEADER</h4>
+      <h2>Headline for project</h2>
+      <p><small>Interactive by NAME HERE, Austin American-Statesman</small></p>
 
       <ul class="list-inline">
           <li><span class="Legal">tag</span> Legal</li>
