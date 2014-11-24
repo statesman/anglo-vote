@@ -67,7 +67,7 @@
         <ul class="list-inline">
             <li><span class="Democrat">tag</span> Democrat</li>
             <li><span class="Republican">tag</span> Republican</li>
-            <li><span class="No-poll">tag</span> No exit poll</li>
+            <li><span class="No-poll">tag</span> No exit poll/race</li>
         </ul>
         <aside class="small text-muted">Source: Edison Research</aside>
       </div>
