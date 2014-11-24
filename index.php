@@ -43,8 +43,8 @@
     <![endif]-->
 
     <?php /* CMG advertising and analytics */ ?>
-    <?php include "includes/advertising.inc";?>
-    <?php include "includes/metrics-head.inc";?>
+    <?php /*include "includes/advertising.inc"; */ ?>
+    <?php /*include "includes/metrics-head.inc"; */ ?>
   </head>
   <body>
     <nav class="navbar navbar-default" role="navigation">
@@ -58,18 +58,18 @@
     </nav>
 
     <div class="container header">
-      <h4>HEADER</h4>
-      <h2>Headline for project</h2>
-      <p><small>Interactive by NAME HERE, Austin American-Statesman</small></p>
+      <h4>ELECTION 2014</h4>
+      <h2>Winning the white vote</h2>
+      <p>This map shows which party candidate carried the white vote in the most competitive race among governor or U.S. Senate in the 2014 mid-term elections. Click on the state to see the percentage white vote for Democratic and Republican candidates along with the white share of the electorate that voted in that state. Grey states indicate there was no exit poll or no race for either governor or senator.</p>
+      <p><small>Interactive by CHRISTIAN MCDONALD and JONATHON TILOVE, Austin American-Statesman</small></p>
 
       <ul class="list-inline">
-          <li><span class="Legal">tag</span> Legal</li>
-          <li><span class="Appeal">tag</span> Ban struck down, appeal pending</li>
-          <li><span class="Challenged">tag</span> Banned, currently challenged in court</li>
-          <li><span class="Banned">tag</span> Banned</li>
+          <li><span class="Democrat">tag</span> Democrat</li>
+          <li><span class="Republican">tag</span> Republican</li>
+          <li><span class="No-poll">tag</span> No exit poll</li>
       </ul>
 
-      <aside class="small text-muted">Source: Lambda Legal, Human Rights Campaign</aside>
+      <aside class="small text-muted">Source: Edison Research</aside>
       
       <section id="blurb"></section>
 
