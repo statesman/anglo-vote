@@ -1,4 +1,4 @@
-White vote interactive
+Anglo vote interactive
 ======================
 
 This goes with Jonathan Tilove story scheduled for December.
