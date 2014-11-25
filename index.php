@@ -6,10 +6,10 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => 'Starter template',
-        'description' => 'This is a starter template.',
-        'thumbnail' => 'http://absolute-url-to/thumbnail.jpg',
-        'url' => 'http://absolute-url-to/this-page.html'
+        'title' => 'Democrats struggle to win the white vote',
+        'description' => 'This map shows which party candidate carried the white vote in the most competitive race among governor or U.S. Senate in the 2014 mid-term election..',
+        'thumbnail' => 'http://projects.statesman.com/news/anglo-vote/assets/thumbnail.jpg',
+        'url' => 'http://projects.statesman.com/news/anglo-vote/'
       );
     ?>
 
