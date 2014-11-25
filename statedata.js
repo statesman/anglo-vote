@@ -73,7 +73,7 @@ var data = [{"abbr":"AL","headline":"Alabama","body":"No exit poll or race","cla
 <b>Share of electorate that is white:</b> 78%","class":"Republican"},
 {"abbr":"OK","headline":"Oklahoma","body":"<h4>Race: </h4>\n<b>Democrat:</b> Name (XX%)<br>
 <b>Republican:</b> Name (XX%)<br>
-<b>Share of electorate that is white:</b> XX%","class":""},
+<b>Share of electorate that is white:</b> XX%","class":"No-poll"},
 {"abbr":"OR","headline":"Oregon","body":"<h4>Race: Governor</h4>\n<b>Democrat:</b> John Kitzhaber (50%)<br>
 <b>Republican:</b> Dennis Richardson (45%)<br>
 <b>Share of electorate that is white:</b> 87%","class":"Democrat"},
