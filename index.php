@@ -60,8 +60,8 @@
     <div class="container">
       <div class="header">
         <h4>ELECTION 2014</h4>
-        <h2>Winning the white vote</h2>
-        <p>This map shows which party candidate carried the white vote in the most competitive race among governor or U.S. Senate in the 2014 mid-term elections. Click on the state to see the percentage white vote for Democratic and Republican candidates along with the white share of the electorate that voted in that state. Gray states indicate there was no exit poll or no race for either governor or senator.</p>
+        <h2>Democrats struggle to win the white vote</h2>
+        <p>The ranks of Anglo Democratic legislators were thinned again in the 2014 election. Come the new session of the Texas Legsialture, there will be only five Anglo Democrats in the House and two in the Senate, a small fraction of their numbers a decade ago. It's the same story throughout the South. This map shows which party candidate carried the white vote in the most competitive race among governor or U.S. Senate in the 2014 mid-term election. Click on the state to see the percentage white vote for Democratic and Republican candidates along with the white share of the electorate that voted in that state. Gray states indicate there was no exit poll or no race for either governor or senator.</p>
         <p><small>Interactive by CHRISTIAN MCDONALD and JONATHON TILOVE, Austin American-Statesman</small></p>
 
         <ul class="list-inline">
